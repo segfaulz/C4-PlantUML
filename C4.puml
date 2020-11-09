@@ -1,5 +1,5 @@
 ' C4-PlantUML, version 1.0.0
-' https://github.com/RicardoNiepel/C4-PlantUML
+' https://github.com/segfaulz/C4-PlantUML
 
 ' Colors
 ' ##################################
@@ -29,7 +29,7 @@ skinparam database {
 skinparam Arrow {
     Color #666666
     FontColor #666666
-    FontSize 12
+    FontSize 10
 }
 
 skinparam rectangle<<boundary>> {
@@ -43,12 +43,12 @@ skinparam rectangle<<boundary>> {
 ' Layout
 ' ##################################
 
-!definelong LAYOUT_AS_SKETCH
+!procedure LAYOUT_AS_SKETCH()
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 skinparam defaultFontName "Comic Sans MS"
 center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
-!enddefinelong
+!endprocedure
 
 !define LAYOUT_TOP_DOWN top to bottom direction
 !define LAYOUT_LEFT_RIGHT left to right direction
